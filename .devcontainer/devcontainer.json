@@ -1,18 +1,20 @@
 {
-  "name": "FirstGens Cost Simulator",
-  "dockerFile": "Dockerfile",
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "editor.formatOnSave": true
-  },
-  "extensions": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "ms-azuretools.vscode-docker"
-  ],
-  "postCreateCommand": "npm install",
-  "remoteUser": "vscode",
-  "forwardPorts": [3000],
-  "postStartCommand": "npm run dev", // Comma added here because of the next line
-  "overrideCommand": "sleep infinity" // This line added for debugging
+    "name": "FirstGens Cost Simulator",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "editor.formatOnSave": true
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker"
+    ],
+    "postCreateCommand": "npm install",
+    "remoteUser": "vscode",
+    "forwardPorts": [
+        3000
+    ],
+    "postStartCommand": "npm run dev",
+    "overrideCommand": "sleep infinity"
 }
