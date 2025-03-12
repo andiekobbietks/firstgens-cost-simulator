@@ -1,19 +1,14 @@
 {
-    "name": "FirstGens Cost Simulator",
-    "dockerFile": "Dockerfile",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash",
-        "editor.formatOnSave": true
-    },
-    "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "ms-azuretools.vscode-docker"
-    ],
-    "postCreateCommand": "npm install",
-    "remoteUser": "vscode",
-    "forwardPorts": [
-        3000
-    ],
-    "postStartCommand": "npm run dev"
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
 }
