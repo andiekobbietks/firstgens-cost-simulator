@@ -1223,7 +1223,7 @@ const FirstGensImplementationSimulator = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white p-4 rounded-lg shadow">
                 <h4 className="font-medium text-blue-700 mb-2">Complete Feature Alignment</h4>
-                <p className="text-sm text-gray-600">Circle.so is one of only two solutions that satisfies all nine core requirements, with the other (custom development) being significantly more expensive and time-consuming.</p>
+                <p className="text-sm text-gray-600">Circle.so is one of only two solutions that satisfies all requirements, with the other (custom development) being significantly more expensive and time-consuming.</p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow">
                 <h4 className="font-medium text-blue-700 mb-2">Rapid Implementation</h4>
@@ -1538,7 +1538,6 @@ const FirstGensImplementationSimulator = () => {
               <tbody>
                 <tr className="bg-white">
                   <td className="border p-2 font-medium">Full Branding</td>
-                  {platformComparison.filter(p => ['Circle.so', 'Mighty Networks', 'Skool
                   {platformComparison.filter(p => ['Circle.so', 'Mighty Networks', 'Skool', 'Moodle', 'Canvas', 'Odoo', 'Custom Development'].includes(p.name)).map((platform) => (
                     <td key={`fullBranding-${platform.name}`} className="border p-2 text-center">
                       {platform.fullBranding ? '✓' : '✗'}
