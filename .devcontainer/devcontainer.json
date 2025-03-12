@@ -15,6 +15,5 @@
     "forwardPorts": [
         3000
     ],
-    "postStartCommand": "npm run dev",
-    "overrideCommand": "sleep infinity"
+    "postStartCommand": "npm run dev"
 }
