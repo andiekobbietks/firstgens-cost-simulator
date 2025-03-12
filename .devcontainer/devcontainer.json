@@ -13,5 +13,5 @@
   "postCreateCommand": "npm install",
   "remoteUser": "vscode",
   "forwardPorts": [3000],
-  "postStartCommand": "npm start"
+  "postStartCommand": "npm run dev"
 }
