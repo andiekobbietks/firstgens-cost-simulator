@@ -13,5 +13,6 @@
   "postCreateCommand": "npm install",
   "remoteUser": "vscode",
   "forwardPorts": [3000],
-  "postStartCommand": "npm run dev"
+  "postStartCommand": "npm run dev", // Comma added here because of the next line
+  "overrideCommand": "sleep infinity" // This line added for debugging
 }
