@@ -11,5 +11,7 @@
     "ms-azuretools.vscode-docker"
   ],
   "postCreateCommand": "npm install",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "forwardPorts": [3000],
+  "postStartCommand": "npm start"
 }
