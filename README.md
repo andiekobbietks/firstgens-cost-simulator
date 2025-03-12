@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# FirstGens Cost Simulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
+The FirstGens Cost Simulator is a tool designed to help users estimate and analyze the costs associated with various scenarios. It provides a visual representation of cost data and allows users to make informed decisions based on the simulated results.
 
-## Available Scripts
+## Features
+- Cost estimation for different scenarios
+- Visual representation of cost data using charts
+- Customizable parameters for simulations
+- Detailed analysis and reporting
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+### Prerequisites
+- Node.js (version 18 or higher)
+- npm (Node Package Manager)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/andiekobbietks/firstgens-cost-simulator.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd firstgens-cost-simulator
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+### Running the Simulator
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open your browser and navigate to `http://localhost:3000` to access the simulator.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Example
+To simulate a cost scenario, follow these steps:
+1. Enter the required parameters in the input fields.
+2. Click the "Simulate" button.
+3. View the results in the charts and analysis section.
 
-### `npm run build`
+## Workflow and Architecture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```mermaid
+graph TD
+    A[User Input] --> B[Cost Estimation]
+    B --> C[Data Processing]
+    C --> D[Visualization]
+    D --> E[Analysis and Reporting]
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Troubleshooting and FAQ
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Common Issues
+- **Issue:** The simulator is not starting.
+  - **Solution:** Ensure that all dependencies are installed correctly by running `npm install`.
 
-### `npm run eject`
+- **Issue:** The charts are not displaying correctly.
+  - **Solution:** Check the browser console for any errors and ensure that the input parameters are valid.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### FAQs
+- **Q:** Can I customize the parameters for the simulations?
+  - **A:** Yes, the simulator allows you to customize various parameters to fit your specific needs.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Q:** How can I contribute to the project?
+  - **A:** You can contribute by submitting pull requests or reporting issues on the GitHub repository.
